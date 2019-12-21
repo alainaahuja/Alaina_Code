@@ -9,7 +9,7 @@ BOXSIZE = 40 # size of box height & width in pixels
 GAPSIZE = 10 # size of gap between boxes in pixels
 BOARDWIDTH = 8 # number of columns of icons
 BOARDHEIGHT = 8 # number of rows of icons
-assert (BOARDWIDTH * BOARDHEIGHT) % 2 == 0, 'Board needs to have an even number of boxes for pairs of matches.'
+assert (BOARDWIDTH * BOARDHEIGHT) % 2 == 0, 'Board needs to have an even number of boxes for pairs of matches.gggggg'
 XMARGIN = int((WINDOWWIDTH - (BOARDWIDTH * (BOXSIZE + GAPSIZE))) / 2)
 YMARGIN = int((WINDOWHEIGHT - (BOARDHEIGHT * (BOXSIZE + GAPSIZE))) / 2)
 
